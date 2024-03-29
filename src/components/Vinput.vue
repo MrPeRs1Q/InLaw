@@ -39,6 +39,10 @@ export default {
   line-height: 20.8px;
   letter-spacing: -0.02em;
 
+  &:hover {
+    border: 1px solid var(--blue);
+  }
+
   &::placeholder {
     color: var(--darkBlue);
     opacity: 0.5;

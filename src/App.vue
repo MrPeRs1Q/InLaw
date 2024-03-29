@@ -26,4 +26,12 @@ button {
   padding: 0;
   cursor: pointer;
 }
+
+.v-enter-active {
+  transition: opacity 0.5s linear;
+}
+
+.v-enter-from{
+  opacity: 0;
+}
 </style>
